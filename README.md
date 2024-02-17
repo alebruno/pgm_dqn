@@ -27,7 +27,7 @@ To watch a pre-trained agent in action, just type:
 
 To start the training from scratch, just type:
 
-`python dqn_train.py`
+`papermill --log-output dqn_train.ipynb dqn_results.ipynb`
 
 Results after 10000 episodes: the agent wins most games with nearly perfect score.
 
