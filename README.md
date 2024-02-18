@@ -16,7 +16,7 @@ To start the training from scratch, just type:
 
 `python pgm_train.py`
 
-Results after 5000 batches of 10 episodes each: the agent beats the computer-controlled player most of the time.
+Result after 5000 batches of 10 episodes each: the agent beats the computer-controlled player most of the times.
 
 <img src="images/pgm_video.gif" alt="drawing" width="400"/>
 
@@ -29,7 +29,7 @@ To start the training from scratch, just type:
 
 `papermill --log-output dqn_train.ipynb dqn_results.ipynb`
 
-Results after 10000 episodes: the agent wins most games with nearly perfect score.
+Result after 10000 episodes: the agent wins most games with nearly perfect score.
 
 <img src="images/dqn_video.gif" alt="drawing" width="400"/>
 
